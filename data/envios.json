@@ -1,0 +1,5 @@
+[
+  { "id": "retiro", "nombre": "Retiro en el local (gratis)", "costo": 0 },
+  { "id": "estandar", "nombre": "Envio estandar (2 a 5 dias habiles)", "costo": 4500 },
+  { "id": "express", "nombre": "Envio express (24 hs)", "costo": 8900 }
+]

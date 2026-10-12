@@ -1,0 +1,14 @@
+[
+  { "id": 1, "nombre": "Mate de calabaza", "categoria": "Mates", "precio": 18000, "stock": 8, "icono": "🧉", "descripcion": "Calabaza curada con virola de alpaca. Clasico y tradicional." },
+  { "id": 2, "nombre": "Mate de vidrio forrado", "categoria": "Mates", "precio": 12500, "stock": 15, "icono": "🧉", "descripcion": "Vidrio interior con forro de cuero ecologico. Facil de limpiar." },
+  { "id": 3, "nombre": "Mate imperial", "categoria": "Mates", "precio": 45000, "stock": 4, "icono": "🏆", "descripcion": "Calabaza forrada en cuero con virola cincelada a mano." },
+  { "id": 4, "nombre": "Bombilla de alpaca", "categoria": "Bombillas", "precio": 15000, "stock": 10, "icono": "🥢", "descripcion": "Bombilla pico de loro de alpaca con filtro desmontable." },
+  { "id": 5, "nombre": "Bombilla de acero inoxidable", "categoria": "Bombillas", "precio": 6500, "stock": 25, "icono": "🥢", "descripcion": "Acero inoxidable, resistente y apta para todo tipo de yerba." },
+  { "id": 6, "nombre": "Yerba playadito tradicional 1 kg", "categoria": "Yerbas", "precio": 7800, "stock": 30, "icono": "🌿", "descripcion": "Yerba mate con palo, sabor intenso y duradero." },
+  { "id": 7, "nombre": "Yerba barbacua 500 g", "categoria": "Yerbas", "precio": 4900, "stock": 20, "icono": "🔥", "descripcion": "Secada a lena con el sabor ahumado de siempre." },
+  { "id": 8, "nombre": "Termo 1 litro", "categoria": "Termos", "precio": 52000, "stock": 6, "icono": "🫖", "descripcion": "Acero inoxidable, mantiene el agua caliente hasta 24 horas." },
+  { "id": 9, "nombre": "Termo media manija", "categoria": "Termos", "precio": 38000, "stock": 9, "icono": "🫖", "descripcion": "Formato compacto con pico cebador de precision." },
+  { "id": 10, "nombre": "Matera de cuero", "categoria": "Accesorios", "precio": 29000, "stock": 5, "icono": "👜", "descripcion": "Bolso matero con lugar para termo, mate y yerbera." },
+  { "id": 11, "nombre": "Set yerbera y azucarera", "categoria": "Accesorios", "precio": 11000, "stock": 12, "icono": "🫙", "descripcion": "Latas hermeticas con tapa a presion." },
+  { "id": 12, "nombre": "Cepillo limpia bombillas", "categoria": "Accesorios", "precio": 2500, "stock": 40, "icono": "🧹", "descripcion": "Cepillo flexible para dejar tu bombilla impecable." }
+]

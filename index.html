@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mate & Co | Tienda online</title>
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js@1.12.0/src/toastify.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="encabezado">
+    <div class="encabezado__marca">
+      <img src="assets/img/logo.svg" alt="Logo de Mate & Co" class="encabezado__logo">
+      <h1>Mate & Co</h1>
+    </div>
+    <button id="botonCarrito" class="boton-carrito" aria-label="Abrir carrito">
+      🛒 <span id="contadorCarrito" class="contador">0</span>
+    </button>
+  </header>
+
+  <main class="contenedor">
+    <section class="presentacion">
+      <h2>Todo para tu ronda de mates</h2>
+      <p>Elegi tus productos, arma tu carrito y confirma tu pedido en pocos pasos.</p>
+    </section>
+
+    <section class="filtros">
+      <input type="search" id="buscador" placeholder="Buscar productos..." aria-label="Buscar productos">
+      <select id="filtroCategoria" aria-label="Filtrar por categoria">
+        <option value="todas">Todas las categorias</option>
+      </select>
+      <select id="ordenPrecio" aria-label="Ordenar por precio">
+        <option value="relevancia">Ordenar: relevancia</option>
+        <option value="menor">Precio: menor a mayor</option>
+        <option value="mayor">Precio: mayor a menor</option>
+      </select>
+    </section>
+
+    <section id="estadoCarga" class="estado"></section>
+    <section id="catalogo" class="catalogo"></section>
+  </main>
+
+  <aside id="panelCarrito" class="panel-carrito" aria-label="Carrito de compras">
+    <div class="panel-carrito__cabecera">
+      <h2>Tu carrito</h2>
+      <button id="cerrarCarrito" class="boton-cerrar" aria-label="Cerrar carrito">✕</button>
+    </div>
+
+    <ul id="listaCarrito" class="lista-carrito"></ul>
+
+    <div class="panel-carrito__resumen">
+      <label for="selectorEnvio">Metodo de envio</label>
+      <select id="selectorEnvio"></select>
+
+      <div class="fila-resumen">
+        <span>Subtotal</span>
+        <span id="subtotalCarrito">$0</span>
+      </div>
+      <div class="fila-resumen">
+        <span>Envio</span>
+        <span id="costoEnvio">$0</span>
+      </div>
+      <div class="fila-resumen fila-resumen--total">
+        <span>Total</span>
+        <span id="totalCarrito">$0</span>
+      </div>
+
+      <div class="panel-carrito__acciones">
+        <button id="vaciarCarrito" class="boton boton--secundario">Vaciar</button>
+        <button id="finalizarCompra" class="boton boton--primario">Finalizar compra</button>
+      </div>
+    </div>
+  </aside>
+
+  <div id="fondoOscuro" class="fondo-oscuro"></div>
+
+  <footer class="pie">
+    <p>Mate & Co | Simulador de compra online | Proyecto final JavaScript</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.14.5/dist/sweetalert2.all.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/toastify-js@1.12.0/src/toastify.min.js"></script>
+  <script src="js/datos.js"></script>
+  <script src="js/carrito.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
+
